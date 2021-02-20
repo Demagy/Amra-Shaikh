@@ -1,0 +1,283 @@
+body {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+
+.cover {
+   margin: 0 8%;
+  background: rgba(252, 249, 249, 0.952)
+}
+
+.container-fluid {
+  padding: 3% 3% 2%;
+
+}
+
+/* For your Professional website Design contact me at email=uzoefunadalington@gmail.com || whatsapp=+2349039152449 */
+
+/* navigation Bar */
+
+.navbar {
+    padding: 2rem 3rem 3rem 3rem;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+  }
+
+
+  .nav-item {
+    padding: 0 18px;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+
+    /***************************** header  *************************/
+
+    .mb {
+      margin-bottom: 5rem;
+    }
+
+    .header-text {
+      font-weight: bold;
+      line-height: 1;
+    }
+
+    .header-button {
+      margin: 3rem 2rem 2rem 1rem;
+      font-weight: bold;
+    }
+
+    .header-img {
+      width: 70%;
+      transform: rotate(25deg);
+      margin-left: 4.5rem;
+    }
+
+    h2 {
+      font-weight: bold;
+      color: rgb(255, 255, 0)
+    }
+
+    /***************************** about  *************************/
+
+    #about {
+      margin: 6rem 0;
+    }
+
+    /***************************** Service *************************/
+
+    #servic {
+      margin: 7rem 0;
+    }
+
+    .service-box {
+      background: #fff;
+      text-align: center;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+     /***************************** Hire me  *************************/
+
+     #hireme {
+      margin: 7rem 0;
+      padding: 3rem 2rem;
+    }
+
+    .hireme-text {
+      font-weight: bold;
+      padding: .5rem;
+      margin: 0;
+    }
+
+    .hireme-button {
+      border: 1px solid #000;
+      margin: 2rem 0 0 .6rem;
+    }
+
+    /***************************** Skills *************************/
+
+    #skills {
+      margin: 7rem 0;
+    }
+
+    #skills label {
+      margin-top: 2rem;
+    }
+
+     /***************************** My Work *************************/
+
+     #my-work {
+      margin: 7rem 0;
+    }
+
+    .my-work-img {
+      width: 95%;      
+      margin-bottom: 2rem;
+    }
+
+    /***************************** Blog *************************/
+
+    #blog {
+      margin: 7rem 0;
+    }
+
+    .blog-box {
+      background: #fff;
+    }
+
+    .blog-img {
+      width: 100%;
+      padding-bottom: 2rem;
+    }
+
+    .blog-admin {
+      margin: 0 1.2rem 0 .8rem;
+    }
+
+    #blog  span {
+      font-size: 1rem;
+      color: #aaa;
+    }
+
+    .blog-text {
+      text-align: left;
+      padding: 0 .3remd  1rem .3rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+
+    #blog a {
+      text-decoration: none;
+      color: #010127;
+      border-bottom:1px solid rgb(231, 181, 14);
+    }
+
+    #blog a:hover {
+      color:rgb(231, 181, 14);
+      border-bottom: 1px solid #010127;
+    }
+
+    /* For your Professional website Design contact me at email=uzoefunadalington@gmail.com || whatsapp=+2349039152449 */
+
+
+  /***************************** footer *************************/
+
+  #footer {
+    background: #010127;
+    color: #fff;
+    padding: 6rem;
+  } 
+
+  .footer-header-text {
+    font-family: 'Sacramento', cursive;
+    margin-bottom: 2rem;
+    text-align:center;
+  }
+
+  #footer ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #footer ul li a:hover {
+    color: rgb(255, 255, 0);
+  }
+
+  #footer p {
+    text-align: center;
+  }
+
+  .social-icon {
+    margin: 2rem 10px;
+  }
+
+  .footer-copyright-text {
+    margin-bottom: 5rem;
+    /* text-align: center; */
+  }
+
+  /*****************  contact me ***************/
+
+  .contact-button {
+    margin: 1rem 0 4rem 0;
+  }
+
+  /******************* common ***************/
+/* .row-custom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  } */
+
+.sub-text {
+  font-size: 1rem;
+  color:  rgb(206, 201, 201);
+}
+
+h3 {
+  font-weight: bold;
+  padding: 1.5rem 0 4rem 0;
+}
+
+h4 {
+  font-weight: bold;
+  padding: 1rem 0 1rem 0;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+
+
+  /***************** maximum 990px ********************/
+
+  @media (max-width: 990px) {
+
+    .cover {
+      margin: 0 5%;
+    }
+
+    .header-text {
+     text-align: center;
+    }
+
+    .header-text-2 {
+      text-align: center;
+    }
+
+    .header-button {
+      display: flex;
+      justify-content: center;
+    }
+
+    .header-img {
+      width: 60%;
+    }
+
+    .blog-box {
+      margin: 0 3rem 3rem 3rem;
+      
+    }
+
+
+
+  }
+
